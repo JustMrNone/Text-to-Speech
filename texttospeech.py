@@ -1,7 +1,7 @@
 import pyttsx3 
 import sys
 
-#creatin the converter class
+#create the converter class
 class Converter:
     def __init__(self):
         self.engine = pyttsx3.init()
