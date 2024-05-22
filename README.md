@@ -6,5 +6,5 @@ you can run python texttospeech.py from your terminal and use it by passing in y
 
 or
 
-you can run python texttospeech.py "this a string" 1 to pass the string and the choice of your voice into program using argv
+you can run python texttospeech.py "this is a string" 1 to pass the string and the choice of your voice into program using argv
 if only text is provided it will read it in the default voice (0) or male
