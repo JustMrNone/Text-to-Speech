@@ -1,10 +1,23 @@
 # Text-to-Speech
 
-a text to speech program written in python 
+To use the text-to-speech program written in Python, follow these steps:
 
-you can run python texttospeech.py from your terminal and use it by passing in your string as input 
+Run the program from your terminal by executing:
 
-or
+```bash
+python texttospeech.py
+```
+You can then input your desired text string interactively.
 
-you can run python texttospeech.py "this is a string" 1 to pass the string and the choice of your voice into program using argv
-if only text is provided it will read it in the default voice (0) or male
+Alternatively, you can pass the text string and optionally specify a voice directly from the command line:
+```bash
+python texttospeech.py "your text here" [voice]
+```
+
+If you provide only the text, it will use the default voice (0, which is male).
+If you specify a voice, use 0 for the default male voice or 1 for a female voice.
+For example:
+
+```bash
+python texttospeech.py "This is a sample text" 1
+```
